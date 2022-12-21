@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="printNumsOnClonsoleUsingLoop" id="printnum">
+    <p id="Hoverbtn">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi numquam, sed dolorem illum repudiandae unde tempore ipsam quisquam natus accusamus aliquam earum mollitia vitae at quidem quibusdam voluptas. Sed, itaque.</p>
+    <script>
+        // let printnum=document.getElementById("printnum");
+        // printnum.onclick=function printonConsole(){
+        //     for(i=0;i<10;i++){
+        //         console.log(i)
+        //     }
+        // }
+        // printnum.onclick=function print(){
+        //     console.log(345)
+        // }
+
+        
+        let Hoverbtn=document.getElementById("Hoverbtn")
+        
+        // Hoverbtn.addEventListener("mouseover",function testhandler1(){
+            //     console.log("Mouse is over the paragraph");
+        // })
+
+        // Hoverbtn.addEventListener("mouseout",function testhandler2(){
+            //     console.log("Mouse is out the paragraph")
+            // })
+
+        let colorchange=document.getElementById("printnum");
+
+        colorchange.onclick=function chngcolor(){
+            Hoverbtn.style.color="green"
+        }
+    </script>
+    
+</body>
+</html>
